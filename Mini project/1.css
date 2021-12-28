@@ -1,0 +1,139 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    display: flex;
+     background-color: rgba(0, 0, 0, 0.075);
+    height: 12vh;
+}
+.child1{
+    display: flex;
+    flex: 2.5;
+   
+     align-items: center;
+    /*   */
+    flex-wrap: wrap; 
+    background-color: rgba(0, 0, 0, 0.075);
+    font-style: italic;
+    font-size: 5vh;
+   
+    justify-content: center;
+    align-items: center;
+
+} 
+.child2{
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    background-color: rgba(0, 0, 0, 0.075);
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    font-style: oblique;
+    font-weight: 1000;
+
+}
+.item1
+{
+  display: flex;
+  background-color: rgba(0,0,0,0.2);  
+  height: 4vh;
+  align-items: center;
+  border-radius: 3px;
+  margin-left: 1vh;
+  margin-right: 1vh;
+  border: 2px solid red;
+
+}
+.id1{
+    display: flex;
+}
+
+.parent2 {
+  display: flex;
+  background: rgba(0, 0, 0, 0.075);
+  background: linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.5)
+    ),
+    url("https://picsum.photos/1000");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+  
+.parent3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .main2{
+    flex: 1;
+    background-color: aqua;
+    height: 100vh;
+  }
+  .parent3 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .child3 {
+    width: 450px;
+    margin: 1px;
+    background: rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+    margin-top: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .child3-img {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .child3-subtitle {
+    padding: 8px;
+    font-size: 19px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.75);
+  }
+  
+  
+  
+  .child21 {
+    flex: 1;
+  }
+  .child22 {
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+  }
+  .child23 {
+    flex: 1;
+  }
+  
+  .beautify-album {
+    font-size: 32px;
+    color: rgba(0, 0, 0, 0.85);
+  }
+  
+  .beautify-album-title {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    font-weight: 200;
+  }
+  
+  
+    
